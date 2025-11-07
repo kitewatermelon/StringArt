@@ -279,4 +279,4 @@ if __name__ == '__main__':
         mpimg.imsave(args.output_file, result, cmap=plt.get_cmap("gray"), vmin=0.0, vmax=1.0)
 
         print(f"Thread pull order by nail index:\n{'-'.join([str(idx) for idx in pull_order])}")
-
+        print(pull_order)
